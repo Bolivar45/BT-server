@@ -20,7 +20,7 @@ namespace BT_server
             InitializeComponent();
         }
 
-        public async void serverHandler(object argument)
+        public void serverHandler(object argument)
         {
             Socket listenSocket = argument as Socket;
             while (true)
